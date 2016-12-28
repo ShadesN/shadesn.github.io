@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio final project</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css"> 
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="row">
+				<div class="col-md-1">
+					<img src="images/logo.png" alt="logo" class="img-responsive">
+				</div>
+				<div class="col-md-11 text-uppercase text-right title-super">
+					<h1>Maurizio Coletta</h1>
+					<h4>Front-end connossieur</h4>
+				</div>
+			</div>	
+		</header>	
+		<div class="row">
+			<div class="col-md-12">
+				<hr>
+			</div>
+		</div>
+		<main>
+			<div class="row">
+				<div class="col-md-12">
+					<img src="http://placehold.it/1200x600" alt="mainImage" class="img-responsive">
+				</div>
+			</div>
+			<section>
+				<div class="row">
+					<div class="col-md-12 text-left" id="featuredWork">
+						<h2>Featured Work</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 text-uppercase text-center">
+						<img src="http://placehold.it/400x200" alt="mainImage" class="img-responsive" data-toggle="modal" data-target="#project1">
+						<h3>Project</h3>
+						<a class="text-lowercase" href="http://shadesn.github.io/">http://shadesn.github.io/</a>
+					</div>
+
+					<div class="col-md-4 text-uppercase text-center">
+						<img src="http://placehold.it/400x200" alt="mainImage" class="img-responsive" data-toggle="modal" data-target="#project2">
+						<h3>Project</h3>
+						<a class="text-lowercase" href="http://shadesn.github.io/">http://shadesn.github.io/</a>
+					</div>
+
+					<div class="col-md-4 text-uppercase text-center">
+						<img src="http://placehold.it/400x200" alt="mainImage" class="img-responsive" data-toggle="modal" data-target="#project3">
+						<h3>Project</h3>
+						<a class="text-lowercase" href="http://shadesn.github.io/">http://shadesn.github.io/</a>
+					</div>
+				</section>
+			</main>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel">Platformer WIP</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/platformer.jpeg" alt="platformer">
+						This is a work in progress.
+						It's a kind of platformer.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel">Magnetized! WIP</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/magnetized.jpeg" alt="magnetized">
+						It's a game about magnets!
+						Also, unity3d!
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel">SubsAdder WIP</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/subsadder.jpeg" alt="subsadder">
+							It's a project born by the desire to ease my girlfriends way into the english language.
+							This little webapp is supposed to generate subtitles for every english video that's fed to it.
+							It uses a mix of Google's close captioning technology and youtube api for html5 subtitles embedding.
+							It's still just a project so there is nothing really concrete about it.
+						</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+	</body>
+	</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(text_change);
+});
+
+function text_change(){
+        get_request();
+        hide_paragraphs();
+        post_request();
+}
+
+function hide_paragraphs(){
+        $("p").hide();
+}
+
+function get_request(){
+        $.get("demo_test.asp", function(data, status){
+            alert("Data: " + data + "\nStatus: " + status);
+        });
+
+}
+
+function post_request(){
+    $.post("demo_test_post.asp",
+    {
+        name: "Donald Duck",
+        city: "Duckburg"
+    },
+    function(data, status){
+        alert("Data: " + data + "\nStatus: " + status);
+    });
+}
+
+</script>
+</head>
+<body>
+
+<button>Send an HTTP GET/POST request to a page and get the result back</button>
+<p> Paragraph to change.</p>
+
+</body>
+</html>
+
+
+
+demo_test.asp
+
+<%
+response.write("This is some text from an external ASP file.")
+%>
+
+demo_test_post.asp
+
+<%
+dim fname,city
+fname=Request.Form("name")
+city=Request.Form("city")
+Response.Write("Dear " & fname & ". ")
+Response.Write("Hope you live well in " & city & ".")
+%>

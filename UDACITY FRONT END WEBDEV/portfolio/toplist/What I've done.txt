@@ -1,0 +1,65 @@
+Intro to HTML and CSS
+
+What I've done:
+
+DAY 1
+
+	- Refresh HTML, classes, ids, CSS Selectors, CSS3, box structure of margin, border, padding and content, box-sizing and different implementation for different HTML rendering engines, properties, display: flex. 
+
+DAY 2
+	- CSS resetting/normalize.css to assure that css works on all browsers.
+	- media queries.
+	- grids.
+
+DAY 3:
+	
+	- Finished working on my own framework.
+	- Learnt about placeholder images and text content.
+	- Google fonts.
+	- Learnt about responsiveness and media queries.
+	- Created a portfolio mock-up with my framework and recreated a design.
+	- Learnt about bootstrap.
+
+DAY 4:
+
+	- Learnt what bootstraps and, in generals, what other frameworks are about.
+	- Learnt about boostrap typography and responsive images features.
+	- I started using bootstrap to create a couple of portfolio pages.
+	- I learnt about boilerplate code for proper rendering in browser and on mobile.
+	- I recreated a design from a pdf file in bootstrap AND it is RESPONSIVE.
+	- Downloaded JQuery
+
+Jeez, I've done a lot.
+
+DAY 5:
+
+	- Introduced Modals in my portfolio.
+	- Finished the course
+	- Started the final project (It's the same that I will find in the nanodegree)
+
+DAY 6:
+
+	- Finally fixed the damn modal 
+	- Started (and finished) the first lesson on the responsive design course.
+	- Learnt about the android emulator built inside chrome!
+	- Learnt about chrome://inspect to inspect pages running on a chrome instance on a mobile device connected via USB...with screencasting too!
+
+DAY 7:
+	
+	- Learnt about DIPS (Device Indepentent PixelS)
+	- Learnt about the <meta name="viewport" content="width=device-width, initial-scale=1.0"> (used for proper page flow and scaling on different hw)
+	- http://udacity.github.io/RWDF-samples/quizzes/viewport-quiz/ 
+			Useful Example
+	- Difference between absolute and relative width (duh)
+	- Good CSS Practices:
+		img, embed,
+		objects, video{
+			max-width: 100%;
+		}
+	- In general, buttons AT LEAST 48x48 pixels wide, so min-height and min-width.
+
+DAY 8:
+
+	
+
+

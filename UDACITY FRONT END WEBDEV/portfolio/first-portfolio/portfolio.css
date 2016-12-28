@@ -1,0 +1,15 @@
+*{
+	font-family: 'Lato', sans-serif;
+}
+
+#mainContent{
+	margin: 0 auto;
+}
+
+.middle{
+	margin: auto;
+}
+
+.subtitle {
+	font-size: smaller;
+}

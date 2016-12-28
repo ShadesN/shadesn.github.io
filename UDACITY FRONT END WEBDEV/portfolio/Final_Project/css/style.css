@@ -1,0 +1,38 @@
+
+img, embed, objects, video{
+	max-width: 100%;
+}
+
+
+body{
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	color: #747704;
+}
+
+.text-muted{
+	color: #bcbbbb;
+}
+
+.text-thin{
+	font-weight: 100;
+}
+
+#featuredWork{
+	margin-top: 20px;
+}
+
+.title-logo{
+	margin-top: 60px;
+	margin-left: 60px;
+	border-style: solid;
+	border-color: #f8981c;
+	border-width: 5px;
+	border-radius: 100em;
+	width: 100px;
+	height: 100px;
+}
+
+.title-super{
+	font-size: 60px;
+}

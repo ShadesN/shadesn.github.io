@@ -1,0 +1,38 @@
+Project SubsAdder:
+
+	Applicazione per l'applicazione automatica di sottotitoli a dei video.
+
+	L'applicazione consta di una singola pagina con al centro un file picker per scegliere un file video e la possibilità di effettuare il drag-n-drop del file video direttamente in un'area ben delimitata.
+
+	Non appena il file video (o l'URL del video) viene caricato, viene mostrato un player video in HTML5.
+
+	Oltre ad utilizzare il player per visionare il video, subito sotto, ci saranno dei bottoni che permettono di:
+
+	a) Uploadare un file di sottotitoli (.srt)
+	b) Generare automaticamente un file di sottotitoli (utilizzando le api di google per il captioning)
+
+	Le operazioni possibili sono:
+		- Click sul file picker per la scelta del file
+		- Utilizzare il player video per vedere il video
+		- Uploadare un file di sottotitoli.
+			(Cliccare sul bottone per l'upload metterà in pausa il video)
+
+		(BONUS: Una volta uploadato il file di sottotitoli, il video comincia IMMEDIATAMENTE a mostrarne l'output nel player)
+
+		- Far generare un file di sottotitoli dalle API di google.
+
+
+	Technologies:
+
+
+	https://googleblog.blogspot.it/2009/11/automatic-captions-in-youtube.html
+
+		"To help address this challenge, we've combined Google's automatic speech recognition (ASR) technology with the YouTube caption system to offer automatic captions, or auto-caps for short. Auto-caps use the same voice recognition algorithms in Google Voice to automatically generate captions for video. The captions will not always be perfect (check out the video below for an amusing example), but even when they're off, they can still be helpful—and the technology will continue to improve with time."
+
+		...
+
+		"In addition to automatic captions, we’re also launching automatic caption timing, or auto-timing, to make it significantly easier to create captions manually. With auto-timing, you no longer need to have special expertise to create your own captions in YouTube. All you need to do is create a simple text file with all the words in the video and we’ll use Google’s ASR technology to figure out when the words are spoken and create captions for your video. This should significantly lower the barriers for video owners who want to add captions, but who don’t have the time or resources to create professional caption tracks."
+
+
+	HTML5 VideoJS
+	AngularJS
